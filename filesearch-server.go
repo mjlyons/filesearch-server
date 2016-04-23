@@ -12,7 +12,7 @@ import (
   "time"
 )
 
-const PATH_WHITELIST string = "(py|js|coffee|go|yaml|scss|css|html)$"
+const PATH_WHITELIST string = "\\.(py|js|coffee|go|yaml|scss|css|html|c|cpp|m|h|java)$"
 const PATH_BLACKLIST string = "/(node_modules|build|coverage)/"
 
 var searchableFiles [](*filesearch.FileData)
