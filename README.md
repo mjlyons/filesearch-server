@@ -7,5 +7,8 @@ http://$SERVER/search?q=$QUERY
 
 The results will come back as JSON.
 
+The code is pretty sloppy right now. No tests, code duplication, yikes. Please don't judge me on it, maybe one day
+I'll clean this up!
+
 MIT License.
 
