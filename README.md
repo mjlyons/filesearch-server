@@ -15,8 +15,10 @@ I'll clean this up!
 ```
 > go get github.com/mjlyons/filesearch-server
 > go install github.com/mjlyons/filesearch-server
-> $GOBIN/filesearch-server -precache-all-files -worker-count 20 -buffering 10 $SRC_PATH
+> $GOBIN/filesearch-server -precache-all-files -worker-count 20 -buffering 10 -src-root $SRC_PATH
 ```
+
+Note, don't use a '/' at the end of $SRC_PATH.
 
 MIT License.
 
